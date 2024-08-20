@@ -1,0 +1,19 @@
+.Cell {
+  height: 100px;
+  width: 100px;
+  background-color: darkgray;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.Cell-lit {
+  background-color: white;
+}
+
+.Cell:hover {
+  background-color: lightgray; /* Hover effect for unlit cells */
+}
+
+.Cell-lit:hover {
+  background-color: #f0f0f0; /* Hover effect for lit cells */
+}
